@@ -28,7 +28,7 @@ model.requestModel.map(custumer => {
                             <div class="badge badge-pill badge-${custumerStatusCSSclass}">${custumer.status}</div>
                         </td>
                         <td>
-                            <a href="edit.html">Редактировать</a>
+                            <a href="edit.html?id=${custumer.id}">Редактировать</a>
                         </td>
                     </tr>`
 

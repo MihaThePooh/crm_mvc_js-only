@@ -3,8 +3,8 @@ const elements = {
     formName: document.querySelector('#name'),
     formPhone: document.querySelector('#phone'),
     formEmail: document.querySelector('#email'),
-    formProduct: document.querySelector('#product'),
-    formBtnSubmit: document.querySelector('.btn.btn-lg.btn-primary.btn-block')
+    formProduct: document.querySelector('#product')
 }
 
 export { elements }
+
